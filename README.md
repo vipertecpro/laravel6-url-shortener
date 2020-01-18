@@ -1,9 +1,12 @@
 # Laravel 6 url shortener
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vipertecpro/laravel6-url-shortener.svg?style=flat-square)](https://packagist.org/packages/vipertecpro/laravel6-url-shortener)
+[![Latest Stable Version](https://poser.pugx.org/vipertecpro/laravel6-url-shortener/v/stable)](https://packagist.org/packages/vipertecpro/laravel6-url-shortener)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/vipertecpro/laravel6-url-shortener/master.svg?style=flat-square)](https://travis-ci.org/vipertecpro/laravel6-url-shortener)
-[![Total Downloads](https://img.shields.io/packagist/dt/vipertecpro/laravel6-url-shortener.svg?style=flat-square)](https://packagist.org/packages/vipertecpro/laravel6-url-shortener)
+[![Build Status](https://scrutinizer-ci.com/g/vipertecpro/laravel6-url-shortener/badges/build.png?b=master)](https://scrutinizer-ci.com/g/vipertecpro/laravel6-url-shortener/build-status/master)
+[![Total Downloads](https://poser.pugx.org/vipertecpro/laravel6-url-shortener/downloads)](https://packagist.org/packages/vipertecpro/laravel6-url-shortener)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vipertecpro/laravel6-url-shortener/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vipertecpro/laravel6-url-shortener/?branch=master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/vipertecpro/laravel6-url-shortener/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
+[![License](https://poser.pugx.org/vipertecpro/laravel6-url-shortener/license)](https://packagist.org/packages/vipertecpro/laravel6-url-shortener)
 
 ## Introduction
 
