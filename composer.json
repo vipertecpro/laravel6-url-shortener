@@ -1,0 +1,43 @@
+{
+    "name": "vipertecpro/laravel6-url-shortener",
+    "description": "Url Shortener for Laravel 6 with support for Google and Bitly drivers.",
+    "keywords": [
+        "vipertecpro",
+        "laravel",
+        "laravel6",
+        "url",
+        "shortener",
+        "url short",
+        "url shortener"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Vipul Walia",
+        "email": "vipertecpro@gmail.com",
+        "homepage": "http://www.vipertecpro.com"
+    }],
+    "require": {
+        "illuminate/support": "6.*",
+        "illuminate/config": "6.*",
+        "mremi/url-shortener": "^2.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "phpunit/phpunit": "8.*",
+        "orchestra/testbench": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vipertecpro\\UrlShortener\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vipertecpro\\UrlShortener\\Test\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
