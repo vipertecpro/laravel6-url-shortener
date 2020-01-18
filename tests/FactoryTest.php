@@ -10,7 +10,7 @@ class FactoryTest extends TestCase
     /**
      *  @test
      */
-    public function it_creates_google_driver()
+    public function it_creates_google_driver(): void
     {
         $factory = $this->app['urlshortener.factory'];
         $driver  = $factory->make('google');
@@ -20,7 +20,7 @@ class FactoryTest extends TestCase
     /**
      *  @test
      */
-    public function it_creates_bitly_driver()
+    public function it_creates_bitly_driver(): void
     {
         $factory = $this->app['urlshortener.factory'];
         $driver  = $factory->make('bitly');
@@ -30,7 +30,7 @@ class FactoryTest extends TestCase
     /**
      *  @test
      */
-    public function it_throws_exception_on_invalid_name()
+    public function it_throws_exception_on_invalid_name(): void
     {
         $this->expectException('InvalidArgumentException');
         $factory = $this->app['urlshortener.factory'];

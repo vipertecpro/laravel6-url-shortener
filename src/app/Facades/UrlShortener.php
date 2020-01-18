@@ -1,6 +1,6 @@
 <?php
 
-namespace Vipertecpro\UrlShortener\Facades;
+namespace Vipertecpro\UrlShortener\App\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

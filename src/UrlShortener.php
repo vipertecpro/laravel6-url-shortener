@@ -4,6 +4,7 @@ namespace Vipertecpro\UrlShortener;
 
 use GuzzleHttp\Exception\BadResponseException;
 use Mremi\UrlShortener\Exception\InvalidApiResponseException;
+use Vipertecpro\UrlShortener\Drivers\Factory;
 use Vipertecpro\UrlShortener\Exceptions\InvalidResponseException;
 
 class UrlShortener
@@ -13,7 +14,7 @@ class UrlShortener
      *
      * @param Drivers\Factory $driverFactory
      */
-    public function __construct(Drivers\Factory $driverFactory)
+    public function __construct(Factory $driverFactory)
     {
         $this->driverFactory = $driverFactory;
     }

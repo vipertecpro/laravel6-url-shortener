@@ -5,7 +5,7 @@ namespace Vipertecpro\UrlShortener\Test;
 use Illuminate\Foundation\Application;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Vipertecpro\UrlShortener\Facades\UrlShortener;
-use Vipertecpro\UrlShortener\UrlShortenerServiceProvider;
+use Vipertecpro\UrlShortener\App\Providers\UrlShortenerServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
@@ -14,14 +14,14 @@ abstract class TestCase extends Orchestra
      *
      * @return array
      */
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [
             UrlShortenerServiceProvider::class,
         ];
     }
 
-    protected function getPackageAliases($app)
+    protected function getPackageAliases($app): array
     {
         return [
             'UrlShortener' => UrlShortener::class,
@@ -31,7 +31,7 @@ abstract class TestCase extends Orchestra
     /**
      * @param Application $app
      */
-    protected function getEnvironmentSetUp($app)
+    protected function getEnvironmentSetUp($app):void
     {
         $app['config']->set('database.default', 'sqlite');
         $app['config']->set('database.connections.sqlite', [

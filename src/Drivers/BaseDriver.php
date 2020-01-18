@@ -21,7 +21,7 @@ abstract class BaseDriver
      *  @throws InvalidApiResponseException
      *  @return string
      */
-    public function shorten($url)
+    public function shorten($url): string
     {
         $link = new Link;
         $link->setLongUrl($url);
@@ -37,7 +37,7 @@ abstract class BaseDriver
      *  @throws InvalidApiResponseException
      *  @return string
      */
-    public function expand($url)
+    public function expand($url): string
     {
         $link = new Link;
         $link->setShortUrl($url);

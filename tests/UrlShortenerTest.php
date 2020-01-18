@@ -16,7 +16,7 @@ class UrlShortenerTest extends TestCase
     /**
      *  @test
      */
-    public function it_calls_the_driver_to_shorten()
+    public function it_calls_the_driver_to_shorten(): void
     {
         $factory   = Mockery::mock(Factory::class);
         $driver    = Mockery::mock(BaseDriver::class);
@@ -33,7 +33,7 @@ class UrlShortenerTest extends TestCase
     /**
      *  @test
      */
-    public function it_calls_the_driver_to_expand()
+    public function it_calls_the_driver_to_expand(): void
     {
         $factory   = Mockery::mock(Factory::class);
         $driver    = Mockery::mock(BaseDriver::class);
@@ -50,16 +50,16 @@ class UrlShortenerTest extends TestCase
     /**
      *  @test
      */
-    public function it_returns_new_instance_on_driver_hot_swap()
+    public function it_returns_new_instance_on_driver_hot_swap(): void
     {
-        $this->assertInstanceOf(UrlShortener::class, \UrlShortener::driver('google'));
+        $this->assertInstanceOf(UrlShortener::class, UrlShortener::driver('google'));
     }
 
     /**
      *  @test
      *  @expectedException InvalidResponseException
      */
-    public function it_throws_invalid_response_exception_on_bad_response()
+    public function it_throws_invalid_response_exception_on_bad_response(): void
     {
         $factory   = Mockery::mock(Factory::class);
         $driver    = Mockery::mock(BaseDriver::class);
@@ -75,7 +75,7 @@ class UrlShortenerTest extends TestCase
      *  @test
      *  @expectedException InvalidResponseException
      */
-    public function it_throws_invalid_response_exception_on_invalid_api_response()
+    public function it_throws_invalid_response_exception_on_invalid_api_response(): void
     {
         $factory   = Mockery::mock(Factory::class);
         $driver    = Mockery::mock(BaseDriver::class);

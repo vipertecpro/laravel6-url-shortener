@@ -17,8 +17,9 @@
         "homepage": "http://www.vipertecpro.com"
     }],
     "require": {
-        "illuminate/support": "6.*",
-        "illuminate/config": "6.*",
+        "php": "^7.2",
+        "illuminate/contracts": "^6.0",
+        "illuminate/support": "^6.0",
         "mremi/url-shortener": "^2.0"
     },
     "require-dev": {
@@ -39,5 +40,15 @@
     "minimum-stability": "dev",
     "scripts": {
         "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vipertecpro\\UrlShortener\\App\\Providers\\UrlShortenerServiceProvider"
+            ],
+            "aliases": {
+                "UrlShortener": "Vipertecpro\\UrlShortener\\App\\Facades\\UrlShortener"
+            }
+        }
     }
 }
