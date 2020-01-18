@@ -1,9 +1,9 @@
 # Laravel 6 url shortener
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vipertecpro/url-shortener.svg?style=flat-square)](https://packagist.org/packages/vipertecpro/url-shortener)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/vipertecpro/laravel6-url-shortener.svg?style=flat-square)](https://packagist.org/packages/vipertecpro/laravel6-url-shortener)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/vipertecpro/url-shortener/master.svg?style=flat-square)](https://travis-ci.org/vipertecpro/url-shortener)
-[![Total Downloads](https://img.shields.io/packagist/dt/vipertecpro/url-shortener.svg?style=flat-square)](https://packagist.org/packages/vipertecpro/url-shortener)
+[![Build Status](https://img.shields.io/travis/vipertecpro/laravel6-url-shortener/master.svg?style=flat-square)](https://travis-ci.org/vipertecpro/laravel6-url-shortener)
+[![Total Downloads](https://img.shields.io/packagist/dt/vipertecpro/laravel6-url-shortener.svg?style=flat-square)](https://packagist.org/packages/vipertecpro/laravel6-url-shortener)
 
 ## Introduction
 
@@ -15,7 +15,7 @@ Vipertecpro is a web development studio based in Madrid, Spain. You can learn mo
 
 Require through composer
 
-    composer require Vipertecpro/url-shortener 1.0.x
+    composer require vipertecpro/laravel6-url-shortener
 
 In config/app.php, add the following entry to the end of the providers array:
 
